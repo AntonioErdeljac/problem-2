@@ -1,29 +1,17 @@
-import React, { useState } from "react";
+import Problem from "./problem";
+import Solution from "./solution";
 
-export default function TodoList() {
-  // Step 1: Define state for todos and filter (all, completed, incomplete)
-  // Your code here
-
-  // Step 2: Add a new todo item
-  // Your code here
-
-  // Step 3: Mark todo item as completed/incompleted
-  // Your code here
-
-  // Step 4: Filter todo items based on completion status
-  // Your code here
+export default function Home() {
+  // Your task is to fix the issues in the Problem component.
+  // If you get stuck or need some guidance, feel free to look into the "Solution" component for help.
+  // However, try to solve the problem on your own first to make the most of this exercise.
 
   return (
-    <div>
-      <h1>Todo List</h1>
-      {/* Step 5: Input field for new todo */}
-      {/* Your code here */}
-      
-      {/* Step 6: Display todo items */}
-      {/* Your code here: Remember to implement the filter logic */}
-      
-      {/* Step 7: Buttons/Links for filtering */}
-      {/* Your code here */}
-    </div>
+    <Problem />
   );
+  
+  // Uncomment the line below to see the solution if needed.
+  // return (
+  //   <Solution />
+  // );
 };
